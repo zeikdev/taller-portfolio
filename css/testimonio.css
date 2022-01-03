@@ -1,0 +1,28 @@
+.testimonio {
+  text-align: center;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 24px;
+  max-inline-size: 280px;
+  margin: 80px auto;
+}
+
+.testimonio-txt {
+  font: var(--button);
+}
+
+.testimonio-caption {
+  font: var(--caption);
+}
+
+@media screen and (min-width: 768px) {
+  .testimonio {
+    max-inline-size: none;
+  }
+  .testimonio-txt {
+    font: var(--headline4);
+  }
+  .testimonio-caption {
+    font: var(--headline5);
+  }
+}

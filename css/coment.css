@@ -1,0 +1,24 @@
+.coment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+}
+
+.coment p {
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.coment span {
+  font: var(--headline5);
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .coment {
+    padding: 200px;
+  }
+}
